@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                     wartosc = "Opcja1";
 
                 } else if(view.getId() == R.id.rbOpcja2) {
-                    wartosc = "Click";
+                    wartosc = "Opcja2";
                 }
                 Toast.makeText(MainActivity.this, radio.getText(), Toast.LENGTH_SHORT).show();
             }
