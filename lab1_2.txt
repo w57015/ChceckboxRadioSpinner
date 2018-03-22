@@ -1,0 +1,38 @@
+Pracownik.java
+
+
+
+package lab;
+
+public class Pracownik {
+
+	public String imie;
+	public String nazwisko;
+	private int wiek;
+	
+	
+	Pracownik (){
+		
+	}
+	
+	Pracownik (int wiek) {
+		
+		this.wiek = wiek;
+	}
+	
+	
+	
+	public void ustawWiek(int wiek) {
+		
+		this.wiek = wiek;
+		
+	}
+	
+	public void wypiszDane(){
+		
+		System.out.println(this.imie + " " + nazwisko);
+	}
+	
+	
+	
+}

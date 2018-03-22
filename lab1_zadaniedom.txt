@@ -1,0 +1,53 @@
+package lab1_zadaniaD;
+
+import java.util.concurrent.ThreadLocalRandom;
+
+public class Punkt {
+	
+	int x = 2;
+	int y = 5;
+	
+	
+	
+	int zwiekszX(int x) {
+		
+		this.x = x;
+		
+		return x + 1;
+	}
+	
+	int zwiekszY(int y) {
+		
+		this.y = y;
+		
+		return y + 1;
+	}
+	
+	void zmien(int x, int y) {
+		
+		int random = ThreadLocalRandom.current().nextInt(0, 10);
+		
+		this.x = x;
+		this.y = y;
+		
+		System.out.println("Wspolrzedna x zwiekszona o losowa liczbe: " + x + random);
+		System.out.println("Wspolrzedna y zwiekszona o losowa liczbe: " + y + random);
+
+		
+	}
+	
+	void wyswietlDane(int x, int y) {
+		
+		this.x = x;
+		this.y = y;
+		
+		System.out.println("Wspolrzedna x: " + x );
+		System.out.println("Wspolrzedna y: " + y );
+
+		
+	}
+	
+	
+	
+
+}

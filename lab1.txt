@@ -1,0 +1,135 @@
+
+// Start.java
+
+
+
+package lab;
+
+public class Start {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	/*	
+		int a = 1;
+		String b = "2";
+		
+	System.out.print(a+b);	
+		*/
+		
+		/*
+		//zad1
+		int stopnieCelsjusza = 21;
+		float stopnieF; 
+		float mnoznik = 1.8f;
+		
+		stopnieF = (stopnieCelsjusza * mnoznik) + 32;
+		
+	
+		//System.out.print(stopnieCelsjusza);
+		System.out.println(stopnieCelsjusza + " stopni Celsjusza jest równe: " + stopnieF +  " stopni Fahrenheita." );
+		
+		
+		//zad2
+		
+		int a = 4;
+		int b = 1;
+		int c = 3;
+		int d = 5;
+		
+		
+		int max = a;
+		int min = a; 
+		
+		int[] tab = {a, b, c, d};
+		
+		for (int wartosc : tab ){
+			if ( wartosc < min){
+				min = wartosc;
+			}
+			if (wartosc > max){
+				max = wartosc;
+			}
+		}
+		
+		System.out.println("min: " + min + " max: " + max);
+		
+		// zad3
+		
+		int waga = 90;
+		float wzrost = 1.85f;
+		
+		float BMI;
+		
+		
+		BMI = waga / (wzrost * wzrost);
+		
+		System.out.println(BMI);
+		
+		if (BMI < 24.9 ){
+			if ( BMI > 18.5)
+			{
+				System.out.println("Jest ok");
+			}
+		}
+		 if (BMI < 18.5){
+				System.out.println("Niedowaga");
+			}
+		 if (BMI > 24.9){
+				System.out.println("Nadwaga");
+			}
+			
+		 
+		 // zad4
+		 
+		 int liczba  = 13; 
+		 int[] nieparzyste = new int[10];
+		 int[] parzyste = new int[10];
+		 
+		 int[] tablica = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+		 
+		 for ( int cos : tablica)
+		 { if (cos%2 == 1){
+			 }
+		 */
+		 
+		 /*
+		Samochod a = new Samochod();
+		a.jedz();
+		a.stoj();
+		a.opuscSzyby();
+		
+		 */
+		 
+		String[] imiona = { "Lama", "Andrzej", "Kacper"};
+		String[] nazwiska = {"Mikolaj", "Nowak", "Zet"};
+		
+		
+		
+		for ( int i = 0; i < imiona.length; i++){
+			Pracownik p = new Pracownik();
+			p.imie = imiona[i];
+			p.nazwisko = nazwiska[i];
+			
+			p.wypiszDane();
+			
+		}
+		 
+		 
+		 Pracownik p1 = new Pracownik();
+		 p1.imie = "Lama";
+		 p1.nazwisko = "Mikolaj";
+		 
+		 p1.ustawWiek(30);
+		 p1.wypiszDane();
+		 
+		 
+		 
+		 
+		 
+		 
+		}
+		
+	}
+
+
